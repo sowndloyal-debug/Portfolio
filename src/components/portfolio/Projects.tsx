@@ -26,7 +26,7 @@ const projects: Project[] = [
     outcome:
       "Mid-priced casual dining drove 61% of orders while carrying the weakest rating spread — flagged as the highest-leverage quality intervention.",
     tags: ["Power BI", "DAX", "Data modelling", "Excel"],
-    link: "#",
+    link: "https://github.com/sowndloyal-debug/Zomato-Order-Restaurant-Analysis-Using-Power-BI.git",
     records: 9550,
     dashboards: 3,
   },
@@ -40,7 +40,7 @@ const projects: Project[] = [
     outcome:
       "Top 3 categories carried 48% of revenue but only 22% of repeat orders — reframing the retention conversation around replenishables.",
     tags: ["SQL", "Schema design", "Window functions", "Cohorts"],
-    link: "#",
+    link: "https://github.com/sowndloyal-debug/AmazonFreshAnalytics.git",
     records: 24000,
     dashboards: 0,
   },
@@ -54,7 +54,7 @@ const projects: Project[] = [
     outcome:
       "Identified an 'at-risk high value' segment worth 18% of revenue — a targeted win-back list instead of a blanket campaign.",
     tags: ["RFM Analysis", "Power BI", "Segmentation", "Excel"],
-    link: "#",
+    link: "https://github.com/sowndloyal-debug/Flipkart_Segmentation_Analytics.git",
     records: 12500,
     dashboards: 2,
   },
@@ -128,7 +128,7 @@ export function Projects() {
                     href={p.link}
                     className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary link-underline"
                   >
-                    View dashboard / report
+                    View GitHub
                     <ArrowUpRight className="size-4" />
                   </a>
                 </div>

@@ -37,7 +37,8 @@ export function Nav() {
           href="#top"
           className="font-display text-sm font-semibold tracking-tight text-foreground"
         >
-          Aarya<span className="text-primary">.</span>
+          Sowndharya panneerselvam
+        <span className="text-primary">.</span>
         </a>
         <ul className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
           {links.map((l) => (

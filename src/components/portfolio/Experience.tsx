@@ -3,27 +3,27 @@ import { SectionHeading } from "@/components/Reveal";
 
 const roles = [
   {
-    company: "Wipro",
-    role: "Content Coordinator — iHeartMedia account",
-    period: "2023 — 2024",
-    points: [
-      "Coordinated content delivery pipelines for a global media client, tracking status across teams and flagging blockers before deadlines slipped.",
-      "Built and maintained trackers that became the single source of truth for delivery status — early practice in defining metrics people trust.",
-      "Translated client requirements into clear internal briefs, the same muscle used for requirement documentation.",
-    ],
-    skills: ["Stakeholder communication", "Process discipline", "Reporting"],
-  },
-  {
     company: "Sutherland Global Services",
     role: "Customer Support Associate",
-    period: "2022 — 2023",
+    period: "2022 — 2024",
     points: [
       "Handled high-volume customer issues end to end, diagnosing root causes rather than closing tickets.",
       "Spotted recurring failure patterns and escalated them as process problems, not one-off complaints.",
       "Learned to explain complex resolutions simply — the core skill of presenting analysis to non-technical stakeholders.",
     ],
     skills: ["Root-cause analysis", "Client handling", "Problem-solving"],
-  },
+  },{
+    company: "Wipro",
+    role: "Content Coordinator — iHeartMedia account",
+    period: "2024 — 2026",
+    points: [
+      "Coordinated content delivery pipelines for a global media client, tracking status across teams and flagging blockers before deadlines slipped.",
+      "Built and maintained trackers that became the single source of truth for delivery status — early practice in defining metrics people trust.",
+      "Translated client requirements into clear internal briefs, the same muscle used for requirement documentation.",
+    ],
+    skills: ["Stakeholder communication", "Process discipline", "Reporting"],
+  }
+  
 ];
 
 export function Experience() {

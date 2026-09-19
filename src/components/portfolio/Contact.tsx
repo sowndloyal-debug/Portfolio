@@ -25,16 +25,16 @@ export function Contact() {
               className="surface-card flex items-center gap-3 px-5 py-4 text-sm transition-transform duration-200 hover:-translate-y-1"
             >
               <Mail className="size-4 text-primary" />
-              aarya.menon.ba@gmail.com
+              sowndloyal@gmail.com
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/sowndharya-panneerselvam-5aa602427"
               target="_blank"
               rel="noreferrer"
               className="surface-card flex items-center gap-3 px-5 py-4 text-sm transition-transform duration-200 hover:-translate-y-1"
             >
               <Linkedin className="size-4" style={{ color: "var(--plum)" }} />
-              linkedin.com/in/aarya-menon
+              linkedin.com/in/sowndharya-panneerselvam
             </a>
           </Reveal>
         </div>

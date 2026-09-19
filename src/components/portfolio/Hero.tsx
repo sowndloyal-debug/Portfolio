@@ -60,9 +60,10 @@ export function Hero() {
           </motion.div>
 
           <motion.h1 {...stagger(1)} className="mt-6 text-4xl font-semibold sm:text-6xl">
-            Aarya Menon
+           Sowndharya panneerselvam
+
             <span className="mt-3 block text-2xl font-medium text-muted-foreground sm:text-3xl">
-              Business Analyst <span className="text-gradient">| Data-Driven Problem Solver</span>
+              Business Analyst/Markting <span className="text-gradient">| Data-Driven Problem Solver</span>
             </span>
           </motion.h1>
 
@@ -81,11 +82,12 @@ export function Hero() {
               <ArrowDown className="size-4 transition-transform duration-200 group-hover:translate-y-0.5" />
             </a>
             <a
-              href="/resume.pdf"
+              href="public/resume.pdf"
+              target="_blank"
               className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold transition-all duration-200 hover:scale-[1.04] hover:border-primary hover:text-primary"
             >
               <Download className="size-4" />
-              Download Resume
+              view Resume
             </a>
           </motion.div>
         </div>

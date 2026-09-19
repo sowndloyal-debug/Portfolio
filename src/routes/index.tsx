@@ -8,9 +8,9 @@ import { Experience } from "@/components/portfolio/Experience";
 import { Contact } from "@/components/portfolio/Contact";
 import { CustomCursor } from "@/components/CustomCursor";
 
-const title = "Aarya Menon — Business Analyst | Data-Driven Problem Solver";
+const title = " Sowndharya panneerselvam — Business Analyst | Data-Driven Problem Solver";
 const description =
-  "Portfolio of Aarya Menon, an entry-level Business Analyst turning operational questions into decisions with SQL, Power BI and Excel.";
+  "Portfolio of  Sowndharya panneerselvam, an Business Analyst turning operational questions into decisions with SQL, Power BI and Excel.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -40,7 +40,7 @@ function Index() {
         <Contact />
       </main>
       <footer className="border-t border-border py-8 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} Aarya Menon · Business Analyst
+        © {new Date().getFullYear()} Sowndharya panneerselvam · Business Analyst
       </footer>
     </>
   );
