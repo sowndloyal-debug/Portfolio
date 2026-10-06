@@ -82,7 +82,7 @@ export function Hero() {
               <ArrowDown className="size-4 transition-transform duration-200 group-hover:translate-y-0.5" />
             </a>
             <a
-              href="public/resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold transition-all duration-200 hover:scale-[1.04] hover:border-primary hover:text-primary"
             >
